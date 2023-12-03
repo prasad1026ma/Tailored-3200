@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Survey",
+    "pageId": "shippinginfo",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -52,7 +52,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Survey_Api1",
+  "id": "shippinginfo_Api1",
   "deleted": false,
-  "gitSyncId": "656cf343136de65cc6ed5b6a_656cfd65136de65cc6ed5b8e"
+  "gitSyncId": "656cf343136de65cc6ed5b6a_656d0258136de65cc6ed5b97"
 }

@@ -7,6 +7,10 @@
     {
       "id": "Survey",
       "isDefault": false
+    },
+    {
+      "id": "shippinginfo",
+      "isDefault": false
     }
   ],
   "viewMode": false,

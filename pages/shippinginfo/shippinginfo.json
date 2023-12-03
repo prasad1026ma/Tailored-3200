@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Survey",
-    "slug": "survey",
+    "name": "shippinginfo",
+    "slug": "shippinginfo",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 780,
+          "bottomRow": 740,
           "containerStyle": "none",
           "snapRows": 58,
           "parentRowSpace": 1,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Survey",
+        "id": "shippinginfo",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656cf343136de65cc6ed5b6a_656cf7e0136de65cc6ed5b81"
+  "gitSyncId": "656cf343136de65cc6ed5b6a_656d0258136de65cc6ed5b95"
 }
