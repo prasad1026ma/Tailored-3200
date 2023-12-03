@@ -18,7 +18,7 @@
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 12.265625,
-    "leftColumn": 16,
+    "leftColumn": 24,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,7 +30,7 @@
     "text": "Hello {{appsmith.user.name || appsmith.user.email}}",
     "key": "55vz8wioi4",
     "isDeprecated": false,
-    "rightColumn": 32,
+    "rightColumn": 40,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "mwjq2juz9q",
