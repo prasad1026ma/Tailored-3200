@@ -11,6 +11,14 @@
     {
       "id": "shippinginfo",
       "isDefault": false
+    },
+    {
+      "id": "Notification Center",
+      "isDefault": false
+    },
+    {
+      "id": "Select User",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -23,7 +31,7 @@
   },
   "color": "#FBF4ED",
   "unpublishedAppLayout": {
-    "type": "MOBILE"
+    "type": "DESKTOP"
   },
   "publishedAppLayout": {
     "type": "MOBILE"
