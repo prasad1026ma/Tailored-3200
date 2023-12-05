@@ -40,7 +40,7 @@
     "parentColumnSpace": 6.84375,
     "dynamicTriggerPathList": [{"key": "onDropdownClose"}],
     "labelPosition": "Top",
-    "onDropdownClose": "{{Persona_Information.run();\nOutfit_Information.run();\nClothing_Items.run();\nstoreValue(SelectedValue, Select1.selectedOptionValue);}}",
+    "onDropdownClose": "{{Persona_Information.run();\nstoreValue('SelectedID', Select1.selectedOptionValue);}}",
     "sourceData": "{{UserID.data}}",
     "key": "n9b3yi3zz3",
     "labelTextSize": "0.875rem",

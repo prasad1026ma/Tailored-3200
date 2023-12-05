@@ -27,6 +27,10 @@
     {
       "id": "ShoppingCart",
       "isDefault": false
+    },
+    {
+      "id": "WishList",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -39,7 +43,7 @@
   },
   "color": "#FBF4ED",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"
