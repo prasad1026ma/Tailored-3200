@@ -3,7 +3,7 @@
     "mobileBottomRow": 28,
     "widgetName": "IconButton3Copy4Copy",
     "onClick": "{{storeValue(Cart_Item_1 + '}', Clothing_Items.data[0]);}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#c1d0b5",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
     "searchTags": [
@@ -20,10 +20,7 @@
     "parentColumnSpace": 12.8603515625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 37,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "isDisabled": false,
     "key": "4ak9hwnhso",
     "isDeprecated": false,
