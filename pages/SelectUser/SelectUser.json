@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1160,
+          "bottomRow": 400,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -28,16 +28,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "SelectUser_Persona_Information",
-              "name": "Persona_Information",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Select1.selectedOptionValue "
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "SelectUser_UserID",
               "name": "UserID",
               "confirmBeforeExecute": false,
@@ -50,16 +40,8 @@
           ],
           [
             {
-              "name": "Clothing_Items",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Select1.selectedOptionValue "
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "name": "Outfit_Information",
+              "id": "SelectUser_Persona_Information",
+              "name": "Persona_Information",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
