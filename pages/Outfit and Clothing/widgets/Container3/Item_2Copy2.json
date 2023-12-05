@@ -1,16 +1,16 @@
 {
     "mobileBottomRow": 7,
-    "widgetName": "Item_2Copy2",
     "borderColor": "#231f20",
-    "displayName": "Text",
+    "widgetName": "Item_2Copy2",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
+    "displayName": "Text",
+    "topRow": 5,
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-    "topRow": 7,
-    "bottomRow": 16,
+    "bottomRow": 14,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -34,6 +34,7 @@
     "key": "vlylmx5hi2",
     "isDeprecated": false,
     "rightColumn": 20,
+    "disableLink": false,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "cbgilipf2e",
@@ -47,15 +48,15 @@
         "Suggested",
         "Content"
     ],
-    "renderMode": "CANVAS",
     "isLoading": false,
+    "renderMode": "CANVAS",
     "mobileTopRow": 3,
     "responsiveBehavior": "fill",
-    "originalTopRow": 7,
+    "originalTopRow": 5,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 45,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 16,
+    "originalBottomRow": 14,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }
