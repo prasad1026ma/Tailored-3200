@@ -50,7 +50,6 @@
           ],
           [
             {
-              "id": "Select User_Clothing_Items",
               "name": "Clothing_Items",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -60,7 +59,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Select User_Outfit_Information",
               "name": "Outfit_Information",
               "confirmBeforeExecute": false,
               "pluginType": "API",
