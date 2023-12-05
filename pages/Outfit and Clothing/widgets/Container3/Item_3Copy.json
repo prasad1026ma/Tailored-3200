@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 9,
-    "bottomRow": 19,
+    "topRow": 6,
+    "bottomRow": 15,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 12.580078125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 37,
+    "leftColumn": 36,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -33,7 +33,7 @@
     "text": "Item 3\nPiece: {{Clothing_Items.data[2].Name}}\nBrand: {{Clothing_Items.data[2].Brandname}}\nPrice of Item: {{Clothing_Items.data[2].Price}}\n",
     "key": "vlylmx5hi2",
     "isDeprecated": false,
-    "rightColumn": 55,
+    "rightColumn": 59,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "440xny0g4s",

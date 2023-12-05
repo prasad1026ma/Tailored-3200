@@ -1,8 +1,8 @@
 {
     "boxShadow": "none",
     "mobileBottomRow": 28,
-    "widgetName": "IconButton3Copy1Copy",
-    "onClick": "{{storeValue(Cart_Item_4, Clothing_Items.data[3].ItemID);}}",
+    "widgetName": "IconButton3Copy4Copy",
+    "onClick": "{{storeValue(Cart_Item_1 + '}', Clothing_Items.data[0]);}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
@@ -10,8 +10,8 @@
         "click",
         "submit"
     ],
-    "topRow": 69,
-    "bottomRow": 73,
+    "topRow": 34,
+    "bottomRow": 38,
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "animateLoading": true,
     "parentColumnSpace": 12.8603515625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 40,
+    "leftColumn": 37,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -27,9 +27,9 @@
     "isDisabled": false,
     "key": "4ak9hwnhso",
     "isDeprecated": false,
-    "rightColumn": 44,
+    "rightColumn": 43,
     "iconName": "plus",
-    "widgetId": "v4htpthrxe",
+    "widgetId": "tyr0gri36u",
     "minWidth": 50,
     "isVisible": true,
     "version": 1,
@@ -39,9 +39,9 @@
     "isLoading": false,
     "mobileTopRow": 24,
     "responsiveBehavior": "hug",
-    "originalTopRow": 69,
+    "originalTopRow": 34,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 16,
-    "originalBottomRow": 73,
+    "originalBottomRow": 38,
     "buttonVariant": "PRIMARY"
 }

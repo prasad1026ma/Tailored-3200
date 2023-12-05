@@ -1,6 +1,6 @@
 {
     "mobileBottomRow": 33,
-    "widgetName": "Text9CopyCopy",
+    "widgetName": "Text9Copy2Copy",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 73,
-    "bottomRow": 78,
+    "topRow": 34,
+    "bottomRow": 38,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 12.8603515625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 8,
+    "leftColumn": 43,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,10 +30,10 @@
     "text": "Add To Cart",
     "key": "vlylmx5hi2",
     "isDeprecated": false,
-    "rightColumn": 19,
+    "rightColumn": 56,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "ku2uyemmxa",
+    "widgetId": "8j3kn2zb7j",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
@@ -48,11 +48,11 @@
     "isLoading": false,
     "mobileTopRow": 29,
     "responsiveBehavior": "fill",
-    "originalTopRow": 65,
+    "originalTopRow": 34,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 7,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 69,
+    "originalBottomRow": 38,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

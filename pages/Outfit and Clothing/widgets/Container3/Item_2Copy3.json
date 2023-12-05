@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 44,
-    "bottomRow": 54,
+    "topRow": 43,
+    "bottomRow": 52,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -33,7 +33,7 @@
     "text": "Item 2\nPiece: {{Clothing_Items.data[1].Name}}\nBrand: {{Clothing_Items.data[1].Brandname}}\nPrice of Item: {{Clothing_Items.data[1].Price}}\n",
     "key": "vlylmx5hi2",
     "isDeprecated": false,
-    "rightColumn": 20,
+    "rightColumn": 25,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "dn8q9mcet8",
@@ -51,11 +51,11 @@
     "isLoading": false,
     "mobileTopRow": 3,
     "responsiveBehavior": "fill",
-    "originalTopRow": 38,
+    "originalTopRow": 40,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 45,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 47,
+    "originalBottomRow": 49,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }
