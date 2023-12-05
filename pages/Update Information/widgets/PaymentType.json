@@ -43,8 +43,8 @@
         {"key": "onDropdownClose"}
     ],
     "labelPosition": "Top",
-    "onDropdownClose": "{{storeValue(new_type, PaymentType.selectedOptionValue);}}",
-    "sourceData": "{{All_Payment_Info.data.map( (obj) =>{ return  {'label': obj.Type, 'value': obj.Type } })}}",
+    "onDropdownClose": "{{storeValue('new_type', PaymentType.selectedOptionValue);}}",
+    "sourceData": "{{All_Payment_Info.data}}",
     "key": "12e8hr3w96",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
