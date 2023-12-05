@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1160,
+          "bottomRow": 730,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -49,16 +49,6 @@
             }
           ],
           [
-            {
-              "id": "Select User_Clothing_Items",
-              "name": "Clothing_Items",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Select1.selectedOptionValue "
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "Select User_Outfit_Information",
               "name": "Outfit_Information",
