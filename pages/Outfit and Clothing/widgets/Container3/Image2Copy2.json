@@ -4,8 +4,8 @@
     "widgetName": "Image2Copy2",
     "displayName": "Image",
     "iconSVG": "/static/media/icon.69b0f0dd810281fbd6e34fc2c3f39344.svg",
-    "topRow": 18,
-    "bottomRow": 28,
+    "topRow": 16,
+    "bottomRow": 26,
     "parentRowSpace": 10,
     "type": "IMAGE_WIDGET",
     "hideCard": false,
@@ -32,9 +32,9 @@
     "mobileTopRow": 10,
     "maxZoomLevel": 1,
     "enableDownload": false,
-    "originalTopRow": 16,
+    "originalTopRow": 18,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 3,
-    "originalBottomRow": 26,
+    "originalBottomRow": 28,
     "enableRotation": false
 }
