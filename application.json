@@ -31,6 +31,10 @@
     {
       "id": "Page2",
       "isDefault": false
+    },
+    {
+      "id": "Update Information",
+      "isDefault": false
     }
   ],
   "viewMode": false,

@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Outfit and Clothing",
-    "slug": "outfit-and-clothing",
+    "name": "Update Information",
+    "slug": "update-information",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1510,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -28,18 +28,18 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Outfit and Clothing_Clothing_Items",
-              "name": "Clothing_Items",
+              "id": "Update Information_All_Possible_Options",
+              "name": "All_Possible_Options",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.SelectedID"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
-              "id": "Outfit and Clothing_Outfit_Information",
-              "name": "Outfit_Information",
+              "id": "Update Information_Payment_Options_Info",
+              "name": "Payment_Options_Info",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -51,7 +51,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Outfit and Clothing",
+        "id": "Update Information",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -62,5 +62,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656cf26b50af0b2b7065b574_656e6d022076df7362e059e3"
+  "gitSyncId": "656cf26b50af0b2b7065b574_656f475a8006445a3491f2ee"
 }

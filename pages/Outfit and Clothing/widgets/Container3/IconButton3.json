@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 28,
     "widgetName": "IconButton3",
-    "onClick": "{{storeValue(ItemID_1, Clothing_Items.data[0].ItemID);\nnavigateTo('Page2', {\n //\"key\": \"value\",\n}, 'SAME_WINDOW');}}",
+    "onClick": "{{storeValue(ItemID_1, Clothing_Items.data[0].ItemID);\nnavigateTo('Page2', {\n  // \"key\": \"value\",\n}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
@@ -10,8 +10,8 @@
         "click",
         "submit"
     ],
-    "topRow": 25,
-    "bottomRow": 29,
+    "topRow": 26,
+    "bottomRow": 30,
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
@@ -39,9 +39,9 @@
     "isLoading": false,
     "mobileTopRow": 24,
     "responsiveBehavior": "hug",
-    "originalTopRow": 25,
+    "originalTopRow": 26,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 16,
-    "originalBottomRow": 29,
+    "originalBottomRow": 30,
     "buttonVariant": "PRIMARY"
 }
