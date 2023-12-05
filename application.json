@@ -23,6 +23,10 @@
     {
       "id": "Outfit and Clothing",
       "isDefault": false
+    },
+    {
+      "id": "ShoppingCart",
+      "isDefault": false
     }
   ],
   "viewMode": false,

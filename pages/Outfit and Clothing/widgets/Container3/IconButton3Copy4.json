@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 28,
     "widgetName": "IconButton3Copy4",
-    "onClick": "{{storeValue(Cart_Item_1 + '}', Clothing_Items.data[0].ItemID);}}",
+    "onClick": "{{storeValue(Cart_Item_1 + '}', Clothing_Items.data[0]);}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
