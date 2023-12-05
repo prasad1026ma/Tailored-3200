@@ -50,7 +50,16 @@
           ],
           [
             {
-              "id": "Select User_Outfit_Information",
+              "id": "Select User_Clothing_Items",
+              "name": "Clothing_Items",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "Select1.selectedOptionValue "
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "name": "Outfit_Information",
               "confirmBeforeExecute": false,
               "pluginType": "API",
