@@ -14,7 +14,8 @@
         {"key": "boxShadow"},
         {"key": "tableData"},
         {"key": "primaryColumns.Rating.computedValue"},
-        {"key": "primaryColumns.Type.computedValue"}
+        {"key": "primaryColumns.Type.computedValue"},
+        {"key": "primaryColumns.Name.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -56,7 +57,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1701805281138,
+    "columnUpdatedAt": 1701818533282,
     "originalBottomRow": 17,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 27,
@@ -64,7 +65,8 @@
     "defaultPageSize": 0,
     "columnOrder": [
         "Rating",
-        "Type"
+        "Type",
+        "Name"
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
@@ -137,6 +139,40 @@
             "sticky": "",
             "originalId": "Rating",
             "currencyCode": "USD",
+            "verticalAlignment": "CENTER"
+        },
+        "Name": {
+            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Name\"]))}}",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "Name",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "Name",
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": false,
+            "textSize": "0.875rem",
+            "allowCellWrapping": false,
+            "index": 0,
+            "isDiscardVisible": true,
+            "isVisible": true,
+            "label": "Name",
+            "fontStyle": "",
+            "textColor": "",
+            "columnType": "text",
+            "thousandSeparator": true,
+            "horizontalAlignment": "LEFT",
+            "isCellEditable": false,
+            "decimals": 0,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+            "originalId": "Name",
+            "currencyCode": "USD",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         }
     },
