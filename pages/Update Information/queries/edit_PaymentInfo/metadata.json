@@ -32,7 +32,7 @@
       "queryParameters": [],
       "body": "{'new_type': {{appsmith.store.new_type}}}",
       "bodyFormData": [],
-      "httpMethod": "GET",
+      "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
