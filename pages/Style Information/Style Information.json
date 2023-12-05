@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 670,
+          "bottomRow": 590,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -25,7 +25,40 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Style Information_Brand_Info",
+              "name": "Brand_Info",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.ItemID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Style Information_Category_Information",
+              "name": "Category_Information",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.ItemID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Style Information_Style_Information",
+              "name": "Style_Information",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.ItemID"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Style Information",
