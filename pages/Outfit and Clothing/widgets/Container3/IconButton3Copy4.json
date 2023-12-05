@@ -3,15 +3,15 @@
     "mobileBottomRow": 28,
     "widgetName": "IconButton3Copy4",
     "onClick": "{{storeValue(Cart_Item_1 + '}', Clothing_Items.data[0]);}}",
-    "buttonColor": "#c1d0b5",
+    "buttonColor": "#99a98f",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
     "searchTags": [
         "click",
         "submit"
     ],
-    "topRow": 35,
-    "bottomRow": 39,
+    "topRow": 40,
+    "bottomRow": 44,
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
@@ -36,9 +36,9 @@
     "isLoading": false,
     "mobileTopRow": 24,
     "responsiveBehavior": "hug",
-    "originalTopRow": 35,
+    "originalTopRow": 40,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 16,
-    "originalBottomRow": 39,
+    "originalBottomRow": 44,
     "buttonVariant": "PRIMARY"
 }

@@ -1,7 +1,7 @@
 {
     "mobileBottomRow": 5,
     "widgetName": "Text2",
-    "borderColor": "#231f20",
+    "borderColor": "",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -33,7 +33,7 @@
     "text": "{{Outfit_Information.data[0].Name}}",
     "key": "vlylmx5hi2",
     "isDeprecated": false,
-    "rightColumn": 24,
+    "rightColumn": 33,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "cjtmduivm5",
@@ -55,7 +55,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 10,
+    "originalBottomRow": 14,
     "fontSize": "1.875rem",
     "minDynamicHeight": 4
 }

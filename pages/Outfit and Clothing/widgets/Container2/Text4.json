@@ -1,7 +1,7 @@
 {
     "mobileBottomRow": 16,
     "widgetName": "Text4",
-    "borderColor": "#231f20",
+    "borderColor": "",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 21,
-    "bottomRow": 27,
+    "topRow": 10,
+    "bottomRow": 16,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 15.6630859375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 0,
+    "leftColumn": 15,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,10 +30,10 @@
     "shouldTruncate": false,
     "borderWidth": "3",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Cost Rating of Outfit: {{Outfit_Information.data[0].CostRating}}",
+    "text": "Cost Rating: {{Outfit_Information.data[0].CostRating}}",
     "key": "vlylmx5hi2",
     "isDeprecated": false,
-    "rightColumn": 16,
+    "rightColumn": 33,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "wdy6wv0g5e",
@@ -51,11 +51,11 @@
     "isLoading": false,
     "mobileTopRow": 12,
     "responsiveBehavior": "fill",
-    "originalTopRow": 21,
+    "originalTopRow": 14,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 27,
+    "originalBottomRow": 22,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

@@ -1,7 +1,7 @@
 {
     "mobileBottomRow": 23,
     "widgetName": "Text6",
-    "borderColor": "#231f20",
+    "borderColor": "",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 33,
-    "bottomRow": 39,
+    "topRow": 20,
+    "bottomRow": 24,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -30,10 +30,10 @@
     "shouldTruncate": false,
     "borderWidth": "3",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Current Body Fit: {{Outfit_Information.data[0].BodyFit}}",
+    "text": "Body Fit: {{Outfit_Information.data[0].BodyFit}}",
     "key": "vlylmx5hi2",
     "isDeprecated": false,
-    "rightColumn": 20,
+    "rightColumn": 33,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "atsy1uki99",
@@ -51,11 +51,11 @@
     "isLoading": false,
     "mobileTopRow": 19,
     "responsiveBehavior": "fill",
-    "originalTopRow": 33,
+    "originalTopRow": 20,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 39,
+    "originalBottomRow": 24,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
