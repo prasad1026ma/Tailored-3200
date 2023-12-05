@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 6,
-    "bottomRow": 15,
+    "bottomRow": 16,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -30,7 +30,7 @@
     "shouldTruncate": false,
     "borderWidth": "3",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Item 1\nPiece: {{Clothing_Items.data[0].Name}}\nBrand: {{Clothing_Items.data[0].Brandname}}\nPrice of Item: {{Clothing_Items.data[0].Price}}\n",
+    "text": "Item 1\nPiece: {{Clothing_Items.data[0].Name}}\nBrand: {{Clothing_Items.data[0].Brandname}}\nPrice of Item: {{Clothing_Items.data[0].Price}}\n\n",
     "key": "vlylmx5hi2",
     "isDeprecated": false,
     "rightColumn": 24,

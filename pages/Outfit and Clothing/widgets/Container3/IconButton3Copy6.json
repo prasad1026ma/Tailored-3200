@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 28,
     "widgetName": "IconButton3Copy6",
-    "onClick": "{{storeValue('Wishlist_ItemID_1', Clothing_Items.data[0].ItemID);}}",
+    "onClick": "{{storeValue('Wishlist_ItemID_2', Clothing_Items.data[1].ItemID);}}",
     "buttonColor": "#c1d0b5",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
@@ -10,8 +10,8 @@
         "click",
         "submit"
     ],
-    "topRow": 66,
-    "bottomRow": 70,
+    "topRow": 67,
+    "bottomRow": 71,
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
@@ -36,9 +36,9 @@
     "isLoading": false,
     "mobileTopRow": 24,
     "responsiveBehavior": "hug",
-    "originalTopRow": 69,
+    "originalTopRow": 66,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 16,
-    "originalBottomRow": 73,
+    "originalBottomRow": 70,
     "buttonVariant": "PRIMARY"
 }
