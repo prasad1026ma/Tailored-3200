@@ -2,6 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 30,
     "widgetName": "IconButton4",
+    "onClick": "{{storeValue('ItemID', Clothing_Items.data[0].ItemID);\nnavigateTo(\"\", {}, 'SAME_WINDOW')}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
@@ -17,7 +18,7 @@
     "mobileRightColumn": 10,
     "animateLoading": true,
     "parentColumnSpace": 8.695068359375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 5,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
@@ -38,9 +39,9 @@
     "isLoading": false,
     "mobileTopRow": 26,
     "responsiveBehavior": "hug",
-    "originalTopRow": 26,
+    "originalTopRow": 27,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 6,
-    "originalBottomRow": 30,
+    "originalBottomRow": 31,
     "buttonVariant": "PRIMARY"
 }

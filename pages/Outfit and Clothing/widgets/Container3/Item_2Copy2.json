@@ -30,7 +30,7 @@
     "shouldTruncate": false,
     "borderWidth": "3",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Item 1\nPiece: {{Clothing_Items.data[0].Name}}\nBrand: {{Clothing_Items.data[0].Brandname}}\nPrice of Item: {{Clothing_Items.data[0].Price}}\n\n",
+    "text": "Item 1\nPiece: {{Clothing_Items.data[0].Name}}\nBrand: {{Clothing_Items.data[0].Brandname}}\nPrice of Item: {{Clothing_Items.data[0].Price}}\n{{Clothing_Items.data[0].ItemID}}\n",
     "key": "vlylmx5hi2",
     "isDeprecated": false,
     "rightColumn": 24,
@@ -55,7 +55,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 45,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 15,
+    "originalBottomRow": 16,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }

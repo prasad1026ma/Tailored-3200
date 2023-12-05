@@ -2,6 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 30,
     "widgetName": "IconButton4Copy1",
+    "onClick": "{{storeValue('ItemID', Clothing_Items.data[1].ItemID);}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
@@ -9,15 +10,15 @@
         "click",
         "submit"
     ],
-    "topRow": 63,
-    "bottomRow": 67,
+    "topRow": 64,
+    "bottomRow": 68,
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 10,
     "animateLoading": true,
     "parentColumnSpace": 8.695068359375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 5,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
@@ -38,9 +39,9 @@
     "isLoading": false,
     "mobileTopRow": 26,
     "responsiveBehavior": "hug",
-    "originalTopRow": 62,
+    "originalTopRow": 64,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 6,
-    "originalBottomRow": 66,
+    "originalBottomRow": 68,
     "buttonVariant": "PRIMARY"
 }

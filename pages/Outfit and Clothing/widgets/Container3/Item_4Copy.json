@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 41,
-    "bottomRow": 50,
+    "topRow": 44,
+    "bottomRow": 54,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -30,7 +30,7 @@
     "shouldTruncate": false,
     "borderWidth": "3",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Item 4\nPiece: {{Clothing_Items.data[3].Name}}\nBrand: {{Clothing_Items.data[3].Brandname}}\nPrice of Item: {{Clothing_Items.data[3].Price}}\n",
+    "text": "Item 4\nPiece: {{Clothing_Items.data[3].Name}}\nBrand: {{Clothing_Items.data[3].Brandname}}\nPrice of Item: {{Clothing_Items.data[3].Price}}\n{{Clothing_Items.data[3].ItemID}}",
     "key": "vlylmx5hi2",
     "isDeprecated": false,
     "rightColumn": 60,
@@ -51,11 +51,11 @@
     "isLoading": false,
     "mobileTopRow": 3,
     "responsiveBehavior": "fill",
-    "originalTopRow": 41,
+    "originalTopRow": 42,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 45,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 50,
+    "originalBottomRow": 52,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }
