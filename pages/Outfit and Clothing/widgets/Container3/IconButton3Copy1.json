@@ -2,6 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 28,
     "widgetName": "IconButton3Copy1",
+    "onClick": "{{storeValue('Wishlist_ItemID_4', Clothing_Items.data[3].ItemID);}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
@@ -9,15 +10,16 @@
         "click",
         "submit"
     ],
-    "topRow": 49,
-    "bottomRow": 53,
+    "topRow": 62,
+    "bottomRow": 66,
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 20,
     "animateLoading": true,
     "parentColumnSpace": 12.8603515625,
-    "leftColumn": 53,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
+    "leftColumn": 40,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -25,7 +27,7 @@
     "isDisabled": false,
     "key": "4ak9hwnhso",
     "isDeprecated": false,
-    "rightColumn": 57,
+    "rightColumn": 44,
     "iconName": "plus",
     "widgetId": "mnf25wlrsx",
     "minWidth": 50,
@@ -37,9 +39,9 @@
     "isLoading": false,
     "mobileTopRow": 24,
     "responsiveBehavior": "hug",
-    "originalTopRow": 49,
+    "originalTopRow": 62,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 16,
-    "originalBottomRow": 53,
+    "originalBottomRow": 66,
     "buttonVariant": "PRIMARY"
 }
