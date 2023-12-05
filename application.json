@@ -19,6 +19,10 @@
     {
       "id": "Select User",
       "isDefault": false
+    },
+    {
+      "id": "Page2",
+      "isDefault": false
     }
   ],
   "viewMode": false,
