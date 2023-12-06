@@ -28,12 +28,12 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "WishList_Wishlist",
-              "name": "Wishlist",
+              "id": "WishList_Show_Wishlist",
+              "name": "Show_Wishlist",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.Wishlist_ItemID_1"
+                "appsmith.store.SelectedID"
               ],
               "timeoutInMillisecond": 10000
             }
