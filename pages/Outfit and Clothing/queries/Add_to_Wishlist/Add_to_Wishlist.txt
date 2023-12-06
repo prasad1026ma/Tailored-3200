@@ -1,0 +1,4 @@
+{
+	"User": {{appsmith.store.User}},
+	"Wishlist_Item": {{appsmith.store.Wishlist_Item}}
+}

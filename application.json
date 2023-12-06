@@ -35,6 +35,10 @@
     {
       "id": "Update Information",
       "isDefault": false
+    },
+    {
+      "id": "Wishlist",
+      "isDefault": false
     }
   ],
   "viewMode": false,

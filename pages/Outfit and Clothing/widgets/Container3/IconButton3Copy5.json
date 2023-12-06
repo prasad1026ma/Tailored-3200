@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 28,
     "widgetName": "IconButton3Copy5",
-    "onClick": "{{storeValue('Wishlist_ItemID_1', Clothing_Items.data[0].ItemID);}}",
+    "onClick": "{{storeValue('Wishlist_Item', Clothing_Items.data[0].ItemID);\nAdd_to_Wishlist.run();\nnavigateTo('Wishlist', {}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
