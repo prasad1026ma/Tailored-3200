@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 39,
-    "bottomRow": 44,
+    "topRow": 38,
+    "bottomRow": 42,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -30,7 +30,7 @@
     "text": "Add To Cart",
     "key": "vlylmx5hi2",
     "isDeprecated": false,
-    "rightColumn": 56,
+    "rightColumn": 61,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "8j3kn2zb7j",
@@ -48,11 +48,11 @@
     "isLoading": false,
     "mobileTopRow": 29,
     "responsiveBehavior": "fill",
-    "originalTopRow": 41,
+    "originalTopRow": 38,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 7,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 46,
+    "originalBottomRow": 43,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
