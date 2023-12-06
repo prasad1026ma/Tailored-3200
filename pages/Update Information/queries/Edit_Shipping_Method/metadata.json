@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api2",
+    "name": "Edit_Shipping_Method",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"new_shipping\": \"appsmith.store.new_shipping\",\n  \"ShippingOptionID\": \"appsmith.store.ShippingOptionID\"\n}",
+      "body": "{\n  \"new_shipping\": {{appsmith.store.new_shipping}},\n  \"ShippingOptionID\": {{appsmith.store.ShippingOptionID}}\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -43,17 +43,25 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "appsmith.store.ShippingOptionID",
+      "appsmith.store.new_shipping"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-06T00:04:37Z"
   },
-  "id": "Update Information_Api2",
+  "id": "Update Information_Edit_Shipping_Method",
   "deleted": false,
   "gitSyncId": "656cf26b50af0b2b7065b574_656fba95d86b83035ceca9a0"
 }
