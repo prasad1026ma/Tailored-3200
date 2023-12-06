@@ -30,7 +30,7 @@
     "text": "Notification Center",
     "key": "w48whmk2td",
     "isDeprecated": false,
-    "rightColumn": 51,
+    "rightColumn": 63,
     "backgroundColor": "#c1d0b5",
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",

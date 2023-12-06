@@ -1,7 +1,7 @@
 {
     "mobileBottomRow": 11,
     "widgetName": "Text3",
-    "borderColor": "#231f20",
+    "borderColor": "#dce3c7",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 9,
-    "bottomRow": 13,
+    "topRow": 5,
+    "bottomRow": 9,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -30,10 +30,10 @@
     "shouldTruncate": false,
     "borderWidth": "3",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Price of Outfit: ${{Outfit_Information.data[0].Price}} ",
+    "text": "Price: ${{Outfit_Information.data[0].Price}} ",
     "key": "vlylmx5hi2",
     "isDeprecated": false,
-    "rightColumn": 16,
+    "rightColumn": 13,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "frmj1eqpyj",
@@ -51,11 +51,11 @@
     "isLoading": false,
     "mobileTopRow": 7,
     "responsiveBehavior": "fill",
-    "originalTopRow": 9,
+    "originalTopRow": 5,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 13,
+    "originalBottomRow": 9,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

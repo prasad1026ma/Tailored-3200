@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 620,
+          "bottomRow": 410,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -48,24 +48,22 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "MoreInformation_Style_Info",
-              "name": "Style_Info",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.itemID"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "MoreInformation_Discount_info",
               "name": "Discount_info",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.Cart_Item"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "MoreInformation_Style_Info",
+              "name": "Style_Info",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.itemID"
               ],
               "timeoutInMillisecond": 10000
             }

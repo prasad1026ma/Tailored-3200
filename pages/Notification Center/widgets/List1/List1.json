@@ -76,7 +76,7 @@
     "isLoading": false,
     "mainCanvasId": "njjyy52oqt",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 96,
+    "originalBottomRow": 87,
     "additionalStaticProps": [
         "level",
         "levelData",
@@ -103,7 +103,7 @@
     "key": "u95wevfi6d",
     "backgroundColor": "transparent",
     "isDeprecated": false,
-    "rightColumn": 51,
+    "rightColumn": 63,
     "widgetId": "oxlnt9yfx5",
     "minWidth": 450,
     "onItemClick": "{{showModal('Modal1');}}",
