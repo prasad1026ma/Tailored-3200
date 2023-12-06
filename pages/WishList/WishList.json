@@ -33,7 +33,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.Wishlist_ItemID_3"
+                "appsmith.store.Wishlist_ItemID_1"
               ],
               "timeoutInMillisecond": 10000
             }
