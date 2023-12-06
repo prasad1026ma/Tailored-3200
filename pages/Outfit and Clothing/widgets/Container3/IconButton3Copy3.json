@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 28,
     "widgetName": "IconButton3Copy3",
-    "onClick": "{{storeValue('Wishlist_Item', Clothing_Items.data[1].ItemID);\nnavigateTo('Wishlist', {}, 'SAME_WINDOW');}}",
+    "onClick": "{{storeValue('Wishlist_Item', Clothing_Items.data[1].ItemID);\nnavigateTo('Wishlist', {}, 'SAME_WINDOW');\nAdd_to_Wishlist.run()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
@@ -39,9 +39,9 @@
     "isLoading": false,
     "mobileTopRow": 24,
     "responsiveBehavior": "hug",
-    "originalTopRow": 77,
+    "originalTopRow": 78,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 16,
-    "originalBottomRow": 81,
+    "originalBottomRow": 82,
     "buttonVariant": "PRIMARY"
 }

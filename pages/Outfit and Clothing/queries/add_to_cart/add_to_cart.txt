@@ -1,0 +1,4 @@
+{
+	"User": {{appsmith.store.User}},
+	"Cart_Item": {{appsmith.store.Cart_Item}}
+}

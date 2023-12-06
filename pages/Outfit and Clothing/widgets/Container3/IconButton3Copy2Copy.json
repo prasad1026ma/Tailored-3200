@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 28,
     "widgetName": "IconButton3Copy2Copy",
-    "onClick": "{{storeValue(Cart_Item_3, Clothing_Items.data[2].ItemID);}}",
+    "onClick": "{{storeValue('Cart_Item', Clothing_Items.data[2].ItemID);\nstoreValue('Curr_Price', Clothing_Items.data[2].Price);\nadd_to_cart.run()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
