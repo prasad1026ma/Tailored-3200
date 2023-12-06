@@ -1,6 +1,6 @@
 {
     "mobileBottomRow": 7,
-    "widgetName": "Item_2Copy2",
+    "widgetName": "Item_4Copy",
     "borderColor": "",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 0,
-    "bottomRow": 9,
+    "bottomRow": 10,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -30,19 +30,19 @@
     "shouldTruncate": false,
     "borderWidth": "3",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Item 1\nPiece: {{Clothing_Items.data[0].Name}}\nBrand: {{Clothing_Items.data[0].Brandname}}\nPrice of Item: {{Clothing_Items.data[0].Price}}",
+    "text": "Item 4\nPiece: {{Clothing_Items.data[3].Name}}\nBrand: {{Clothing_Items.data[3].Brandname}}\nPrice of Item: {{Clothing_Items.data[3].Price}}",
     "key": "vlylmx5hi2",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 63,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "cbgilipf2e",
+    "widgetId": "zkikio8u4f",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "lxbg9718b6",
+    "parentId": "l5fcnvstw0",
     "tags": [
         "Suggested",
         "Content"
@@ -55,7 +55,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 45,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 9,
+    "originalBottomRow": 10,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }
