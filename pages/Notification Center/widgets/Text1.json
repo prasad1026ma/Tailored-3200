@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 6.84375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 4,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,7 +30,7 @@
     "text": "Notification Center",
     "key": "w48whmk2td",
     "isDeprecated": false,
-    "rightColumn": 51,
+    "rightColumn": 64,
     "backgroundColor": "#c1d0b5",
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",

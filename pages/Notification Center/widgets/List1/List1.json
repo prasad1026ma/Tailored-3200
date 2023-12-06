@@ -19,7 +19,7 @@
         {"key": "boxShadow"},
         {"key": "listData"}
     ],
-    "leftColumn": 4,
+    "leftColumn": 0,
     "enhancements": true,
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -76,7 +76,7 @@
     "isLoading": false,
     "mainCanvasId": "njjyy52oqt",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 96,
+    "originalBottomRow": 87,
     "additionalStaticProps": [
         "level",
         "levelData",
@@ -101,9 +101,9 @@
     "gridType": "vertical",
     "defaultSelectedItem": "",
     "key": "u95wevfi6d",
-    "backgroundColor": "transparent",
+    "backgroundColor": "#c1d0b5",
     "isDeprecated": false,
-    "rightColumn": 51,
+    "rightColumn": 64,
     "widgetId": "oxlnt9yfx5",
     "minWidth": 450,
     "onItemClick": "{{showModal('Modal1');}}",
