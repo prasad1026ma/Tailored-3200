@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 28,
     "widgetName": "IconButton3Copy6",
-    "onClick": "{{storeValue(ItemID_1, Clothing_Items.data[2].ItemID);\nnavigateTo('Page2', {\n  // \"key\": \"value\",\n}, 'SAME_WINDOW');}}",
+    "onClick": "{{storeValue('itemID', Clothing_Items.data[2].ItemID);\nnavigateTo('MoreInformation', {\n  // \"key\": \"value\",\n}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",

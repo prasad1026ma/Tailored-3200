@@ -1,0 +1,4 @@
+{
+  "new_shipping": "appsmith.store.new_shipping",
+  "ShippingOptionID": "appsmith.store.ShippingOptionID"
+}

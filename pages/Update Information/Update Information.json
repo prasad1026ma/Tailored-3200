@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 580,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -34,6 +34,26 @@
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Update Information_All_Shipping_Options",
+              "name": "All_Shipping_Options",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Update Information_Shipping_Options",
+              "name": "Shipping_Options",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.User"
+              ],
+              "timeoutInMillisecond": 10000
             }
           ],
           [
@@ -43,7 +63,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.SelectedID"
+                "appsmith.store.User"
               ],
               "timeoutInMillisecond": 10000
             }
