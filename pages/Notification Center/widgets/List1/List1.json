@@ -4,7 +4,7 @@
     "isCanvas": true,
     "templateHeight": 160,
     "iconSVG": "/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
-    "topRow": 6,
+    "topRow": 5,
     "pageSize": 9,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,
@@ -19,7 +19,7 @@
         {"key": "boxShadow"},
         {"key": "listData"}
     ],
-    "leftColumn": 4,
+    "leftColumn": 0,
     "enhancements": true,
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -76,7 +76,7 @@
     "isLoading": false,
     "mainCanvasId": "njjyy52oqt",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 96,
+    "originalBottomRow": 86,
     "additionalStaticProps": [
         "level",
         "levelData",
@@ -90,7 +90,7 @@
     "listData": "{{Notifications.data}}",
     "dynamicPropertyPathList": [],
     "displayName": "List",
-    "bottomRow": 87,
+    "bottomRow": 86,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 29,
@@ -101,9 +101,9 @@
     "gridType": "vertical",
     "defaultSelectedItem": "",
     "key": "u95wevfi6d",
-    "backgroundColor": "transparent",
+    "backgroundColor": "",
     "isDeprecated": false,
-    "rightColumn": 51,
+    "rightColumn": 64,
     "widgetId": "oxlnt9yfx5",
     "minWidth": 450,
     "onItemClick": "{{showModal('Modal1');}}",
@@ -111,7 +111,7 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 14,
     "responsiveBehavior": "fill",
-    "originalTopRow": 6,
+    "originalTopRow": 5,
     "mobileLeftColumn": 5,
     "selectedItemView": "{{{}}}"
 }

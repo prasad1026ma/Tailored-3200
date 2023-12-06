@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 6,
-    "bottomRow": 21,
+    "topRow": 0,
+    "bottomRow": 10,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 12.580078125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 2,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -33,7 +33,7 @@
     "text": "Item 1\nPiece: {{Clothing_Items.data[0].Name}}\nBrand: {{Clothing_Items.data[0].Brandname}}\nPrice of Item: {{Clothing_Items.data[0].Price}}\n{{Clothing_Items.data[0].ItemID}}\n",
     "key": "vlylmx5hi2",
     "isDeprecated": false,
-    "rightColumn": 24,
+    "rightColumn": 64,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "cbgilipf2e",
@@ -42,7 +42,7 @@
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "e03sbmygps",
+    "parentId": "lxbg9718b6",
     "tags": [
         "Suggested",
         "Content"
@@ -51,11 +51,11 @@
     "isLoading": false,
     "mobileTopRow": 3,
     "responsiveBehavior": "fill",
-    "originalTopRow": 6,
+    "originalTopRow": 0,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 45,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 21,
+    "originalBottomRow": 10,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }
